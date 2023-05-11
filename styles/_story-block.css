@@ -1,0 +1,44 @@
+.story-section {
+    background-color: #245852;
+}
+
+.story-section__inner-container {
+    padding-top: 230px;
+    padding-bottom: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.story-section__text-content {
+}
+
+.story-section__title {
+    margin-bottom: 60px;
+    color: #fff;
+}
+
+.story-section__subtitle {
+    margin-bottom: 60px;
+    font-size: 1.3em;
+    font-weight: 600;
+    line-height: 39px;
+    color: #fff;
+}
+
+.story-section__action-btn {
+    text-transform: none;
+}
+
+.story-section__video-content {
+    position: relative;
+}
+
+.story-section__video-content--play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
